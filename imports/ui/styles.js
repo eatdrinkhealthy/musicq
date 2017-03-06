@@ -31,7 +31,7 @@ const defaultPageRules = {
   color: "white",
   padding: "30px",
 };
-export const defaultPageStyle = {
+export const defaultPageStyle = { // eslint-disable-line import/prefer-default-export
   rules: defaultPageRules,
   className: `${css(defaultPageRules)}`,
 };
