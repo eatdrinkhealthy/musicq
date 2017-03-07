@@ -60,4 +60,8 @@
 * when initially creating, or even updating, __be sure to examine the contents of the snapshot file__
     - it is possible to capture incorrect code or even 'undefined' in cases
 * snapshot files are to be kept in the default location, a `__snapshots__` subdirectory
-    
+
+## Storybook
+* Story file location and naming convention
+    - story file names are to follow the convetion `filename.stories.js`
+    - story files are to be placed in a `tests/__stories__/` subdirectory of the module / component          
