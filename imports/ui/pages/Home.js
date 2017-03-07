@@ -8,8 +8,4 @@ const Home = () => (
   </div>
 );
 
-let a: number = 5;
-let b: number = "this and that";
-let c: number = a + b;
-
 export default Home;
