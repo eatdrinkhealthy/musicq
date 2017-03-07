@@ -42,7 +42,7 @@
     "no-underscore-dangle": ["error", { "allow": ["_id"]}],
     "react/no-danger": "warn",
     "react/react-in-jsx-scope": "off",
-    "react/jsx-filename-extension": "warn",
+    "react/jsx-filename-extension": "off",
     "meteor/eventmap-params": ["error", { "templateInstanceParamName": "instance" }],
     "import/no-unresolved": ["error", { "ignore": ["^meteor/"] }],
     "flowtype/boolean-style": ["error", "boolean"],
