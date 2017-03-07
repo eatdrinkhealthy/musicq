@@ -49,7 +49,7 @@
 ### Jest
 #### Mocking Meteor packages
 * Many commonly used meteor packages were mocked, by creating mock modules, and using the moduleNameMapper configuration setting
-    + some details and light exmaples can be seen on this [meteor forum discussion](https://forums.meteor.com/t/mocking-meteor-package-imports-in-jest/27780/9)
+    + some details and light examples can be seen on this [meteor forum discussion](https://forums.meteor.com/t/mocking-meteor-package-imports-in-jest/27780/9)
 * Other helpful meteor mocking resources
     + [jest configuration docs, moduleNameMapper](http://facebook.github.io/jest/docs/configuration.html#modulenamemapper-object-string-string)
     + [example jest meteor mocks (some usable examples)](https://github.com/Astrocoders/jest-meteor-mocks)
