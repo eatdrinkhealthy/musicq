@@ -49,7 +49,7 @@
 ### Jest
 #### Mocking Meteor packages
 * Many commonly used meteor packages were mocked, by creating mock modules, and using the moduleNameMapper configuration setting
-    + some details and light exmaples can be seen on this [meteor forum discussion](https://forums.meteor.com/t/mocking-meteor-package-imports-in-jest/27780/9)
+    + some details and light examples can be seen on this [meteor forum discussion](https://forums.meteor.com/t/mocking-meteor-package-imports-in-jest/27780/9)
 * Other helpful meteor mocking resources
     + [jest configuration docs, moduleNameMapper](http://facebook.github.io/jest/docs/configuration.html#modulenamemapper-object-string-string)
     + [example jest meteor mocks (some usable examples)](https://github.com/Astrocoders/jest-meteor-mocks)
@@ -65,3 +65,15 @@
 * Story file location and naming convention
     - story file names are to follow the convetion `filename.stories.js`
     - story files are to be placed in a `tests/__stories__/` subdirectory of the module / component          
+
+## Flow
+* flow package installed
+    - place 3rd party and custom created libdefs in `.types/`  (see setting in .flowconfig file)
+* list notable flowtype conventions here
+* installed [eslint package for flowtype](https://github.com/gajus/eslint-plugin-flowtype)
+    - this generates flow type errors simply by linting (may make flow less or unnecessary?)
+* Use flow-typed package to download community created libdefs and create generic libdefs for installed pacakges
+    - flow-typed libdefs reside in `flow-typed/`, which is git ignored
+    - copy or move libdefs from there to `.types/` and edit as needed
+    - they can be checked in to the repo from `.types/`
+* NOTE, anytime you download libdefs in to `flow-typed/`, you need to nuke or hide that directory, else Meteor will see it and try to load it
