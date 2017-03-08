@@ -1,7 +1,6 @@
 # MusiQ - an online jukebox
 
-[![Build Status](https://semaphoreci.com/api/v1/eat-drink-healthy/musiq/branches/master/shields_badge.svg)](https://semaphoreci.com/eat-drink-healthy/musiq)
-
+[![Build Status](https://semaphoreci.com/api/v1/projects/1ff84300-0546-4694-9672-d0becb8a1e3a/1210129/shields_badge.svg)](https://semaphoreci.com/eat-drink-healthy/musicq)
 ## Notes
 * ...
 
