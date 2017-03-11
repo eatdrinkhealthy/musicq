@@ -12,6 +12,8 @@
     + synchronized play list (played local)
 * Players (TBD)
   - YouTube, SoundCloud, Spotify, Google music library, Amazon music library, ...
+  - Sonos
+  - check out Vertigo, http://www.vertigomusiconline.com/
 ### Tenets
 * Visibility, Transparency
 * Give back to the artists
