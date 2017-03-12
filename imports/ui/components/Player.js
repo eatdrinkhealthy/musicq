@@ -1,13 +1,12 @@
 // @flow
 import React from "react";
 import ReactPlayer from "react-player";
-import { defaultPageStyle } from "../styles";
 
-const Home = () => (
-  <div className={defaultPageStyle.className}>
-    <h1>MusicQ</h1>
+const Player = (): React.Element<*> => (
+  <div>
     <ReactPlayer url="https://www.youtube.com/watch?v=uUcEGOLfUTE" playing={false} controls />
+    <h3>Requests</h3>
   </div>
 );
 
-export default Home;
+export default Player;
