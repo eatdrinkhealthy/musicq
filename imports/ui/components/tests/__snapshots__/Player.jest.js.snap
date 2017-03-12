@@ -1,0 +1,27 @@
+exports[`<Player /> matches rendered snapshot 1`] = `
+<div>
+  <div
+    className={undefined}
+    hidden={false}
+    style={
+      Object {
+        "height": 360,
+        "width": 640,
+      }
+    }>
+    <div
+      style={
+        Object {
+          "display": "block",
+          "height": "100%",
+          "width": "100%",
+        }
+      }>
+      <div />
+    </div>
+  </div>
+  <h3>
+    Requests
+  </h3>
+</div>
+`;
