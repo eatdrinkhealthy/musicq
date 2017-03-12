@@ -1,0 +1,12 @@
+exports[`<Main /> matches render snaphot 1`] = `
+<div>
+  <div>
+    <h1>
+      MusicQ
+    </h1>
+  </div>
+  <div>
+    some text
+  </div>
+</div>
+`;
