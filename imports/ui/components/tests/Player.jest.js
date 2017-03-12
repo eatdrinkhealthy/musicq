@@ -12,4 +12,3 @@ describe("<Player />", function () {
     expect(tree).toMatchSnapshot();
   });
 });
-
