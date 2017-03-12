@@ -1,6 +1,26 @@
 # MusiQ - an online jukebox
 
-[![Build Status](https://semaphoreci.com/api/v1/eat-drink-healthy/musiq/branches/master/shields_badge.svg)](https://semaphoreci.com/eat-drink-healthy/musiq)
+[![Build Status](https://semaphoreci.com/api/v1/projects/1ff84300-0546-4694-9672-d0becb8a1e3a/1210129/shields_badge.svg)](https://semaphoreci.com/eat-drink-healthy/musicq)
+
+## Project Background & Tenets
+### Inspiring Features / Integration Potentials
+* Reddit, Microscope, Crater, other - vote up / down model
+* Mixlr - ability to chat / chat room while listening to music
+  - also check out Rocket.chat 
+  - distributed listening parties 
+    + stream music 
+    + synchronized play list (played local)
+* Players (TBD)
+  - YouTube, SoundCloud, Spotify, Google music library, Amazon music library, ...
+  - Sonos
+  - check out Vertigo, http://www.vertigomusiconline.com/
+### Tenets
+* Visibility, Transparency
+* Give back to the artists
+  - pay for songs played?
+  - provide data, how often played, voting data, FF / skip data
+* ...
+
 
 ## Notes
 * ...
