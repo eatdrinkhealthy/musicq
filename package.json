@@ -4,6 +4,7 @@
   "scripts": {
     "start": "meteor run",
     "lint": "eslint . --ext .js,.jsx --ignore-pattern 'packages/**'",
+    "lint-w": "esw . -w --ext .js,.jsx --ignore-pattern 'packages/**'",
     "flow": "flow; test $? -eq 0 -o $? -eq 2",
     "flow:check": "flow check",
     "flow:status": "flow status",
@@ -42,6 +43,7 @@
     "eslint-plugin-jsx-a11y": "^3.0.2",
     "eslint-plugin-meteor": "^4.0.1",
     "eslint-plugin-react": "^6.9.0",
+    "eslint-watch": "^3.0.1",
     "flow-bin": "^0.41.0",
     "jest": "^18.1.0",
     "less": "^2.7.2",
