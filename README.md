@@ -13,6 +13,7 @@
 * Players (TBD)
   - YouTube, SoundCloud, Spotify, Google music library, Amazon music library, ...
   - Sonos
+     + http://mattwel.ch/adding-songs-to-sonos-queue-via-sms/ (uses twilio,rdio) 
   - check out Vertigo, http://www.vertigomusiconline.com/
 ### Tenets
 * Visibility, Transparency
