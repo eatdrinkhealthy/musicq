@@ -5,16 +5,16 @@
 }
 
 .burger {
-    width: 34;
-    height: 34;
+    width: 40px;
+    height: 40px;
     top: 0;
     left: 0;
-    padding: 15px;
+    padding: 18px;
 }
 
 .burger-bar {
-    height: 8px;
-    width: 30px;
+    height: 10px;
+    width: 38px;
     background: url("/images/menu-white.png") center center no-repeat;
     background-size: contain;
 }
