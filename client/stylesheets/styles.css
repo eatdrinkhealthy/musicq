@@ -3,3 +3,18 @@
 .header {
     background: steelblue;
 }
+
+.burger {
+    width: 34;
+    height: 34;
+    top: 0;
+    left: 0;
+    padding: 15px;
+}
+
+.burger-bar {
+    height: 8px;
+    width: 30px;
+    background: url("/images/menu-white.png") center center no-repeat;
+    background-size: contain;
+}
