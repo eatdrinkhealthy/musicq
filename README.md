@@ -92,7 +92,6 @@
     - place 3rd party and custom created libdefs in `.types/`  (see setting in .flowconfig file)
 * list notable flowtype conventions here
 * installed [eslint package for flowtype](https://github.com/gajus/eslint-plugin-flowtype)
-    - this generates flow type errors simply by linting (may make flow less or unnecessary?)
 * Use flow-typed package to download community created libdefs and create generic libdefs for installed pacakges
     - flow-typed libdefs reside in `flow-typed/`, which is git ignored
     - copy or move libdefs from there to `.types/` and edit as needed

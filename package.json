@@ -47,8 +47,6 @@
     "eslint-plugin-react": "^6.9.0",
     "flow-bin": "^0.41.0",
     "jest": "^18.1.0",
-    "less": "^2.7.2",
-    "less-loader": "^2.2.3",
     "lodash": "^4.17.4",
     "react-addons-test-utils": "^15.4.2",
     "react-storybook-addon-backgrounds": "^0.0.7",
