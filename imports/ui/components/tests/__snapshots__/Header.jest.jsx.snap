@@ -1,5 +1,6 @@
 exports[`<Header /> matches render snapshot 1`] = `
-<div>
+<div
+  className="header">
   <h1>
     MusicQ
   </h1>

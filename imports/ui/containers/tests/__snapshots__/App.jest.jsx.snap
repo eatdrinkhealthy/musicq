@@ -1,7 +1,8 @@
 exports[`<App /> matches render snapshot - no children 1`] = `
 <div
   className="container">
-  <div>
+  <div
+    className="header">
     <h1>
       MusicQ
     </h1>
@@ -12,7 +13,8 @@ exports[`<App /> matches render snapshot - no children 1`] = `
 exports[`<App /> matches render snapshot - with children 1`] = `
 <div
   className="container">
-  <div>
+  <div
+    className="header">
     <h1>
       MusicQ
     </h1>
