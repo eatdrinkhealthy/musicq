@@ -1,9 +1,10 @@
 exports[`<Player /> matches rendered snapshot 1`] = `
 <div>
+  <br />
   <div
     className="row">
     <div
-      className="eight columns">
+      className="eight columns offset-by-one">
       <div
         className="flex-video">
         <div
@@ -32,7 +33,7 @@ exports[`<Player /> matches rendered snapshot 1`] = `
   <div
     className="row">
     <div
-      className="eight columns">
+      className="eight columns offset-by-one">
       <h4>
         Requests
       </h4>
