@@ -2,7 +2,7 @@
 import React from "react";
 import ReactPlayer from "react-player";
 
-const Player = (): React.Element<*> => (
+const Player = (): React$Element<*> => (
   <div>
     <div className="flex-video">
       <ReactPlayer url="https://www.youtube.com/watch?v=uUcEGOLfUTE" playing={false} controls />

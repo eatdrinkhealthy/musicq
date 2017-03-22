@@ -8,5 +8,5 @@ import {
 import Welcome from "../../Welcome";
 
 storiesOf("Components", module)
-  .add("Welcome", (): React.Element<*> => (<Welcome />));
+  .add("Welcome", (): React$Element<*> => (<Welcome />));
 

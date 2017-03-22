@@ -5,13 +5,13 @@ import {
   IndexRoute,
   browserHistory,
 } from "react-router";
-import Main from "../ui/components/Main";
+import App from "../ui/containers/App";
 import Welcome from "../ui/components/Welcome";
 import Player from "../ui/components/Player";
 
 const Routes = (
   <Router history={browserHistory}>
-    <Route path="/" component={Main}>
+    <Route path="/" component={App}>
       <IndexRoute component={Welcome} />
       <Route path="/player" component={Player} />
     </Route>

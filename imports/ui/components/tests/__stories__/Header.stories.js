@@ -9,5 +9,5 @@ import {
 import Header from "../../Header";
 
 storiesOf("Page Sections", module)
-  .add("Header", (): React.Element<*> => (<Header />));
+  .add("Header", (): React$Element<*> => (<Header />));
 

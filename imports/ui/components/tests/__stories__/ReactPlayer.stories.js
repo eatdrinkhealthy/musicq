@@ -11,20 +11,20 @@ import ReactPlayer from "react-player";
 import Player from "../../Player";
 
 storiesOf("Components", module)
-  .add("ReactPlayer - with controls", (): React.Element<*> => (
+  .add("ReactPlayer - with controls", (): React$Element<*> => (
     <ReactPlayer
       url={text("URL", "https://www.youtube.com/watch?v=uUcEGOLfUTE")}
       playing={boolean("Playing", false)}
       controls
     />
   ))
-  .add("ReactPlayer - without controls", (): React.Element<*> => (
+  .add("ReactPlayer - without controls", (): React$Element<*> => (
     <ReactPlayer
       url={text("URL", "https://www.youtube.com/watch?v=uUcEGOLfUTE")}
       playing={boolean("Playing", false)}
       controls={false}
     />
   ))
-.add("ReactPlayer - in flexbox", (): React.Element<*> => (
+.add("ReactPlayer - in flexbox", (): React$Element<*> => (
   <Player />
 ));
