@@ -1,7 +1,0 @@
-exports[`<Header /> matches render snapshot 1`] = `
-<div>
-  <h1>
-    MusicQ
-  </h1>
-</div>
-`;
