@@ -5,6 +5,10 @@ import React from "react";
 const Header = (): React.Element<*> => (
   <div>
     <h1>MusicQ</h1>
+    <div className="row">
+      <div className="six columns">Side A</div>
+      <div className="six columns">Side B</div>
+    </div>
   </div>
 );
 
