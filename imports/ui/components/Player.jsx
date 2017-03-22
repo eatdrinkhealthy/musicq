@@ -4,10 +4,18 @@ import ReactPlayer from "react-player";
 
 const Player = (): React$Element<*> => (
   <div>
-    <div className="flex-video">
-      <ReactPlayer url="https://www.youtube.com/watch?v=uUcEGOLfUTE" playing={false} controls />
+    <div className="row">
+      <div className="eight columns">
+        <div className="flex-video">
+          <ReactPlayer url="https://www.youtube.com/watch?v=uUcEGOLfUTE" playing={false} controls />
+        </div>
+      </div>
     </div>
-    <h3>Requests</h3>
+    <div className="row">
+      <div className="eight columns">
+        <h4>Requests</h4>
+      </div>
+    </div>
   </div>
 );
 
