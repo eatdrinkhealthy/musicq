@@ -6,7 +6,7 @@ exports[`<Player /> matches rendered snapshot 1`] = `
     <div
       className="eight columns offset-by-one">
       <div
-        className="flex-video">
+        className="flex-video player">
         <div
           className={undefined}
           hidden={false}
