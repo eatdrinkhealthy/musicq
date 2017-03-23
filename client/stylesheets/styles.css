@@ -2,6 +2,8 @@
 
 .header {
     background: steelblue;
+    border-radius: 4px;
+    padding: 10px;
 }
 
 .burger {
@@ -15,6 +17,10 @@
 .burger-bar {
     height: 10px;
     width: 38px;
-    background: url("/images/menu-white.png") center center no-repeat;
+    background: url("/images/menu-black.png") center center no-repeat;
     background-size: contain;
+}
+
+.player {
+    border-radius: 4px;
 }
