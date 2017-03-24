@@ -43,6 +43,7 @@ describe("<Request />", function () {
     const handleSelectRequest = jest.fn();
     const tree = renderer.create(<Request
       request={sampleRequests[0]}
+      nowPlaying={false}
       handleSelectRequest={handleSelectRequest}
     />).toJSON();
     expect(tree).toMatchSnapshot();

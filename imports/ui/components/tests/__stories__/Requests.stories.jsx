@@ -5,6 +5,7 @@ import {
   storiesOf,
   action,
 } from "@kadira/storybook";
+import { boolean } from "@kadira/storybook-addon-knobs";
 import Requests, { Request } from "../../Requests";
 
 const sampleRequests = [
@@ -41,6 +42,7 @@ const sampleRequests = [
 storiesOf("Components", module)
   .add("Request", (): React$Element<*> => (<Request
     request={sampleRequests[0]}
+    nowPlaying={false}
     handleSelectRequest={action("clicked")}
   />))
   .add("Requests", (): React$Element<*> => (<Requests
