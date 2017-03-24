@@ -18,9 +18,13 @@ export class Request extends Component {
 
   render() {  // eslint-disable-line flowtype/require-return-type
     return (
-      <div onClick={this.handleSelectRequest}>
-        <span>{this.props.request.artist} - </span>
-        <span>{this.props.request.title}</span>
+      <div>
+        <input
+          type="button"
+          className="request"
+          onClick={this.handleSelectRequest}
+          value={`${this.props.request.artist} - ${this.props.request.title}`}
+        />
       </div>
     );
   }
