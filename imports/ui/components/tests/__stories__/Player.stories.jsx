@@ -6,23 +6,23 @@ import {
 } from "@kadira/storybook";
 import { text, boolean } from "@kadira/storybook-addon-knobs";
 import ReactPlayer from "react-player";
-import Player from "../../NowPlaying";
+import Player from "../../Player";
 
 storiesOf("Components", module)
-  .add("ReactPlayer - with controls", (): React$Element<*> => (
+  .add("ReactPlayer (au natural) - with controls", (): React$Element<*> => (
     <ReactPlayer
       url={text("URL", "https://www.youtube.com/watch?v=uUcEGOLfUTE")}
       playing={boolean("Playing", false)}
       controls
     />
   ))
-  .add("ReactPlayer - without controls", (): React$Element<*> => (
+  .add("ReactPlayer (au natural) - without controls", (): React$Element<*> => (
     <ReactPlayer
       url={text("URL", "https://www.youtube.com/watch?v=uUcEGOLfUTE")}
       playing={boolean("Playing", false)}
       controls={false}
     />
   ))
-.add("ReactPlayer - in flexbox", (): React$Element<*> => (
+.add("Player", (): React$Element<*> => (
   <Player />
 ));

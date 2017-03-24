@@ -1,6 +1,6 @@
 // @flow
 import React from "react";
-import ReactPlayer from "react-player";
+import Player from "./Player";
 import RequestsContainer from "../containers/RequestsContainer";
 
 const NowPlaying = (): React$Element<*> => (
@@ -8,9 +8,7 @@ const NowPlaying = (): React$Element<*> => (
     <br />
     <div className="row">
       <div className="eight columns offset-by-one">
-        <div className="flex-video player">
-          <ReactPlayer url="https://www.youtube.com/watch?v=uUcEGOLfUTE" playing={false} controls />
-        </div>
+        <Player />
       </div>
     </div>
     <div className="row">
