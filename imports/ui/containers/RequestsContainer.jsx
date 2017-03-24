@@ -3,9 +3,13 @@ import React from "react";
 import requests from "../../data/sampleRequests";
 import Requests from "../components/Requests";
 
-const RequestsContainer = (): React$Element<*> => (
+type IRequestsContainerProps = {
+  handleSelectRequest: (nextReqUrl: string) => void,
+};
+
+const RequestsContainer = (props: IRequestsContainerProps): React$Element<*> => (
   <div>
-    <Requests requests={requests} />
+    <Requests requests={requests} handleSelectRequest={props.handleSelectRequest} />
   </div>
 );
 

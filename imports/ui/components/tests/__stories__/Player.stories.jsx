@@ -24,5 +24,5 @@ storiesOf("Components", module)
     />
   ))
 .add("Player", (): React$Element<*> => (
-  <Player />
+  <Player nowPlayingUrl="https://www.youtube.com/watch?v=uUcEGOLfUTE" />
 ));

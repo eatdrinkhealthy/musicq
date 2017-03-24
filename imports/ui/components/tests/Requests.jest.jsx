@@ -40,14 +40,22 @@ const sampleRequests = [
 
 describe("<Request />", function () {
   it("matches render snapshot", function () {
-    const tree = renderer.create(<Request request={sampleRequests[0]} />).toJSON();
+    const handleSelectRequest = jest.fn();
+    const tree = renderer.create(<Request
+      request={sampleRequests[0]}
+      handleSelectRequest={handleSelectRequest}
+    />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });
 
 describe("<Requests />", function () {
   it("matches render snapshot", function () {
-    const tree = renderer.create(<Requests requests={sampleRequests} />).toJSON();
+    const handleSelectRequest = jest.fn();
+    const tree = renderer.create(<Requests
+      requests={sampleRequests}
+      handleSelectRequest={handleSelectRequest}
+    />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

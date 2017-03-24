@@ -40,7 +40,8 @@ exports[`<NowPlayingContainer /> matches rendered snapshot 1`] = `
             Requests
           </h4>
           <ul>
-            <div>
+            <div
+              onClick={[Function]}>
               <span>
                 Duke Ellington
                  - 
@@ -49,7 +50,8 @@ exports[`<NowPlayingContainer /> matches rendered snapshot 1`] = `
                 Jeep\'s Blues
               </span>
             </div>
-            <div>
+            <div
+              onClick={[Function]}>
               <span>
                 The Mustangs
                  - 
@@ -58,7 +60,8 @@ exports[`<NowPlayingContainer /> matches rendered snapshot 1`] = `
                 Ya Mar
               </span>
             </div>
-            <div>
+            <div
+              onClick={[Function]}>
               <span>
                 The Black Crowes
                  - 
@@ -67,7 +70,8 @@ exports[`<NowPlayingContainer /> matches rendered snapshot 1`] = `
                 Gone
               </span>
             </div>
-            <div>
+            <div
+              onClick={[Function]}>
               <span>
                 Grateful Dead
                  - 

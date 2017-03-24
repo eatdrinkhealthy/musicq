@@ -1,5 +1,6 @@
 exports[`<Request /> matches render snapshot 1`] = `
-<div>
+<div
+  onClick={[Function]}>
   <span>
     Duke Ellington
      - 
@@ -16,7 +17,8 @@ exports[`<Requests /> matches render snapshot 1`] = `
     Requests
   </h4>
   <ul>
-    <div>
+    <div
+      onClick={[Function]}>
       <span>
         Duke Ellington
          - 
@@ -25,7 +27,8 @@ exports[`<Requests /> matches render snapshot 1`] = `
         Jeep\'s Blues
       </span>
     </div>
-    <div>
+    <div
+      onClick={[Function]}>
       <span>
         The Mustangs
          - 
@@ -34,7 +37,8 @@ exports[`<Requests /> matches render snapshot 1`] = `
         Ya Mar
       </span>
     </div>
-    <div>
+    <div
+      onClick={[Function]}>
       <span>
         The Black Crowes
          - 
@@ -43,7 +47,8 @@ exports[`<Requests /> matches render snapshot 1`] = `
         Gone
       </span>
     </div>
-    <div>
+    <div
+      onClick={[Function]}>
       <span>
         Grateful Dead
          - 

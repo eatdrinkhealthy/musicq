@@ -1,9 +1,9 @@
 // @flow
 /* eslint-disable import/no-extraneous-dependencies */
-
 import React from "react";
 import {
   storiesOf,
+  action,
 } from "@kadira/storybook";
 import Requests, { Request } from "../../Requests";
 
@@ -39,5 +39,11 @@ const sampleRequests = [
 ];
 
 storiesOf("Components", module)
-  .add("Request", (): React$Element<*> => (<Request request={sampleRequests[0]} />))
-  .add("Requests", (): React$Element<*> => (<Requests requests={sampleRequests} />));
+  .add("Request", (): React$Element<*> => (<Request
+    request={sampleRequests[0]}
+    handleSelectRequest={action("clicked")}
+  />))
+  .add("Requests", (): React$Element<*> => (<Requests
+    requests={sampleRequests}
+    handleSelectRequest={action("clicked")}
+  />));

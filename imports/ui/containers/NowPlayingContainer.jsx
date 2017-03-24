@@ -13,11 +13,15 @@ class NowPlayingContainer extends Component {
   constructor() {
     super();
     this.state = {
-      nowPlayingUrl: "",
+      nowPlayingUrl: "https://www.youtube.com/watch?v=uUcEGOLfUTE",
     };
   }
 
   state: IState;
+
+  handleSelectRequest(nextRequestUrl: string) {
+    this.setState({ nowPlayingUrl: nextRequestUrl });
+  }
 
   render() {  // eslint-disable-line flowtype/require-return-type
     return (
@@ -25,12 +29,14 @@ class NowPlayingContainer extends Component {
         <br />
         <div className="row">
           <div className="eight columns offset-by-one">
-            <Player />
+            <Player nowPlayingUrl={this.state.nowPlayingUrl} />
           </div>
         </div>
         <div className="row">
           <div className="eight columns offset-by-one">
-            <RequestsContainer />
+            <RequestsContainer
+              handleSelectRequest={(snr: string): void => this.handleSelectRequest(snr)}
+            />
           </div>
         </div>
       </div>

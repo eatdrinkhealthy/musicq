@@ -1,21 +1,34 @@
 // @flow
-import React from "react";
+import React, {
+  Component,
+} from "react";
 import type { IRequest } from "../../data/sampleRequests";
 
 type IRequestProps = {
   request: IRequest,
+  handleSelectRequest: (nextReqUrl: string) => void,
 };
 
-export const Request = (props: IRequestProps): React$Element<*> => (
-  <div>
-    <span>{props.request.artist} - </span>
-    <span>{props.request.title}</span>
-  </div>
-);
+export class Request extends Component {
+  props: IRequestProps;
 
+  handleSelectRequest() {
+    this.props.handleSelectRequest("TODO get url");
+  }
+
+  render() {  // eslint-disable-line flowtype/require-return-type
+    return (
+      <div onClick={this.handleSelectRequest}>
+        <span>{this.props.request.artist} - </span>
+        <span>{this.props.request.title}</span>
+      </div>
+    );
+  }
+}
 
 type IRequestsProps = {
   requests: Array<IRequest>,
+  handleSelectRequest: (nextReqUrl: string) => void,
 };
 
 const Requests = (props: IRequestsProps): React$Element<*> => (
@@ -26,6 +39,7 @@ const Requests = (props: IRequestsProps): React$Element<*> => (
         (<Request
           key={request.id}
           request={request}
+          handleSelectRequest={props.handleSelectRequest}
         />))
       }
     </ul>
