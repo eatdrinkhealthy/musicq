@@ -1,0 +1,57 @@
+exports[`<Request /> matches render snapshot 1`] = `
+<div>
+  <span>
+    Duke Ellington
+     - 
+  </span>
+  <span>
+    Jeep\'s Blues
+  </span>
+</div>
+`;
+
+exports[`<Requests /> matches render snapshot 1`] = `
+<div>
+  <h4>
+    Requests
+  </h4>
+  <ul>
+    <div>
+      <span>
+        Duke Ellington
+         - 
+      </span>
+      <span>
+        Jeep\'s Blues
+      </span>
+    </div>
+    <div>
+      <span>
+        The Mustangs
+         - 
+      </span>
+      <span>
+        Ya Mar
+      </span>
+    </div>
+    <div>
+      <span>
+        The Black Crowes
+         - 
+      </span>
+      <span>
+        Gone
+      </span>
+    </div>
+    <div>
+      <span>
+        Grateful Dead
+         - 
+      </span>
+      <span>
+        Franklin\'s Tower
+      </span>
+    </div>
+  </ul>
+</div>
+`;
