@@ -1,6 +1,7 @@
 // @flow
 import React from "react";
 import ReactPlayer from "react-player";
+import RequestsContainer from "../containers/RequestsContainer";
 
 const Player = (): React$Element<*> => (
   <div>
@@ -14,7 +15,7 @@ const Player = (): React$Element<*> => (
     </div>
     <div className="row">
       <div className="eight columns offset-by-one">
-        <h4>Requests</h4>
+        <RequestsContainer />
       </div>
     </div>
   </div>
