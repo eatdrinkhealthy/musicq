@@ -8,7 +8,7 @@ exports[`<Welcome /> matches rendered snapshot 1`] = `
     style={Object {}}>
     <span
       className="button">
-      Player
+      Now Playing
     </span>
   </a>
   <div

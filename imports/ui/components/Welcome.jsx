@@ -4,8 +4,8 @@ import { Link } from "react-router";
 const Welcome = () => (
   <div>
     <h5>Welcome</h5>
-    <Link to="/player">
-      <span className="button">Player</span>
+    <Link to="/now-playing">
+      <span className="button">Now Playing</span>
     </Link>
     <div className="row">
       <div className="five columns offset-by-three">

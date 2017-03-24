@@ -1,4 +1,4 @@
-exports[`<Player /> matches rendered snapshot 1`] = `
+exports[`<NowPlaying /> matches rendered snapshot 1`] = `
 <div>
   <br />
   <div

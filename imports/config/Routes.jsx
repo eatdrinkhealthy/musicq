@@ -7,13 +7,13 @@ import {
 } from "react-router";
 import App from "../ui/containers/App";
 import Welcome from "../ui/components/Welcome";
-import Player from "../ui/components/Player";
+import NowPlaying from "../ui/components/NowPlaying";
 
 const Routes = (
   <Router history={browserHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Welcome} />
-      <Route path="/player" component={Player} />
+      <Route path="/now-playing" component={NowPlaying} />
     </Route>
   </Router>
 );

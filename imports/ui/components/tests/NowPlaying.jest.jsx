@@ -4,11 +4,11 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from "react";
 import renderer from "react-test-renderer";
-import Player from "../Player";
+import NowPlaying from "../NowPlaying";
 
-describe("<Player />", function () {
+describe("<NowPlaying />", function () {
   it("matches rendered snapshot", function () {
-    const tree = renderer.create(<Player />).toJSON();
+    const tree = renderer.create(<NowPlaying />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

@@ -3,7 +3,7 @@ import React from "react";
 import ReactPlayer from "react-player";
 import RequestsContainer from "../containers/RequestsContainer";
 
-const Player = (): React$Element<*> => (
+const NowPlaying = (): React$Element<*> => (
   <div>
     <br />
     <div className="row">
@@ -21,4 +21,4 @@ const Player = (): React$Element<*> => (
   </div>
 );
 
-export default Player;
+export default NowPlaying;

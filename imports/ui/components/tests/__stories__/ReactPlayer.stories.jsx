@@ -6,7 +6,7 @@ import {
 } from "@kadira/storybook";
 import { text, boolean } from "@kadira/storybook-addon-knobs";
 import ReactPlayer from "react-player";
-import Player from "../../Player";
+import Player from "../../NowPlaying";
 
 storiesOf("Components", module)
   .add("ReactPlayer - with controls", (): React$Element<*> => (
