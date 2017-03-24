@@ -5,7 +5,7 @@ import React from "react";
 import {
   storiesOf,
 } from "@kadira/storybook";
-import NowPlaying from "../../NowPlaying";
+import NowPlayingContainer from "../../NowPlayingContainer";
 
 storiesOf("Page Sections", module)
-  .add("Now Playing", (): React$Element<*> => (<NowPlaying />));
+  .add("Now Playing", (): React$Element<*> => (<NowPlayingContainer />));

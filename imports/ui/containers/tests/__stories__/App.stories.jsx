@@ -6,7 +6,7 @@ import {
 } from "@kadira/storybook";
 import App from "../../App";
 import Welcome from "../../../components/Welcome";
-import NowPlaying from "../../../components/NowPlaying";
+import NowPlayingContainer from "../../../containers/NowPlayingContainer";
 
 storiesOf("Pages", module)
   .add("App - Welcome", (): React$Element<*> => (
@@ -16,6 +16,6 @@ storiesOf("Pages", module)
   ))
   .add("App - Now Playing", (): React$Element<*> => (
     <App>
-      <NowPlaying />
+      <NowPlayingContainer />
     </App>
   ));
