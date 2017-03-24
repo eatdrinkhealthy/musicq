@@ -6,7 +6,7 @@ type IRequestProps = {
   request: IRequest,
 };
 
-const Request = (props: IRequestProps): React$Element<*> => (
+export const Request = (props: IRequestProps): React$Element<*> => (
   <div>
     <span>{props.request.artist} - </span>
     <span>{props.request.title}</span>
