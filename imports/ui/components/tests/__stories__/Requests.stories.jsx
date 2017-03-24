@@ -42,7 +42,7 @@ const sampleRequests = [
 storiesOf("Components", module)
   .add("Request", (): React$Element<*> => (<Request
     request={sampleRequests[0]}
-    nowPlaying={false}
+    nowPlaying={boolean("Now Playing", false)}
     handleSelectRequest={action("clicked")}
   />))
   .add("Requests", (): React$Element<*> => (<Requests
