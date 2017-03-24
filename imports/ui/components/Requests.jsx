@@ -12,18 +12,20 @@ type IRequestProps = {
 export class Request extends Component {
   props: IRequestProps;
 
-  handleSelectRequest() {
-    this.props.handleSelectRequest("TODO get url");
+  handleSelectRequest(requestUrl: string) {
+    this.props.handleSelectRequest(requestUrl);
   }
 
   render() {  // eslint-disable-line flowtype/require-return-type
+    const request = this.props.request;
+
     return (
       <div>
         <input
           type="button"
           className="request"
-          onClick={this.handleSelectRequest}
-          value={`${this.props.request.artist} - ${this.props.request.title}`}
+          onClick={(): void => this.handleSelectRequest(request.songUrl)}
+          value={`${request.artist} - ${request.title}`}
         />
       </div>
     );

@@ -28,3 +28,7 @@
 .request {
     width: 100%;
 }
+
+.now-playing {
+    background-color: seagreen;
+}

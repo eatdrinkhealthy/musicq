@@ -1,13 +1,10 @@
 exports[`<Request /> matches render snapshot 1`] = `
-<div
-  onClick={[Function]}>
-  <span>
-    Duke Ellington
-     - 
-  </span>
-  <span>
-    Jeep\'s Blues
-  </span>
+<div>
+  <input
+    className="request"
+    onClick={[Function]}
+    type="button"
+    value="Duke Ellington - Jeep\'s Blues" />
 </div>
 `;
 
@@ -17,45 +14,33 @@ exports[`<Requests /> matches render snapshot 1`] = `
     Requests
   </h4>
   <ul>
-    <div
-      onClick={[Function]}>
-      <span>
-        Duke Ellington
-         - 
-      </span>
-      <span>
-        Jeep\'s Blues
-      </span>
+    <div>
+      <input
+        className="request"
+        onClick={[Function]}
+        type="button"
+        value="Duke Ellington - Jeep\'s Blues" />
     </div>
-    <div
-      onClick={[Function]}>
-      <span>
-        The Mustangs
-         - 
-      </span>
-      <span>
-        Ya Mar
-      </span>
+    <div>
+      <input
+        className="request"
+        onClick={[Function]}
+        type="button"
+        value="The Mustangs - Ya Mar" />
     </div>
-    <div
-      onClick={[Function]}>
-      <span>
-        The Black Crowes
-         - 
-      </span>
-      <span>
-        Gone
-      </span>
+    <div>
+      <input
+        className="request"
+        onClick={[Function]}
+        type="button"
+        value="The Black Crowes - Gone" />
     </div>
-    <div
-      onClick={[Function]}>
-      <span>
-        Grateful Dead
-         - 
-      </span>
-      <span>
-        Franklin\'s Tower
-      </span>
+    <div>
+      <input
+        className="request"
+        onClick={[Function]}
+        type="button"
+        value="Grateful Dead - Franklin\'s Tower" />
     </div>
   </ul>
 </div>
