@@ -8,7 +8,7 @@ type IPlayerProps = {
 
 const Player = (props: IPlayerProps): React$Element<*> => (
   <div className="flex-video player">
-    <ReactPlayer url={props.nowPlayingUrl} playing={false} controls />
+    <ReactPlayer url={props.nowPlayingUrl} playing controls={false} />
   </div>
 );
 
