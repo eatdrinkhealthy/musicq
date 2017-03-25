@@ -2,7 +2,6 @@
 import React, {
   Component,
 } from "react";
-import classNames from "classnames";
 import type { IRequest } from "../../data/sampleRequests";
 
 type IRequestProps = {
@@ -20,16 +19,18 @@ export class Request extends Component {
 
   render() {  // eslint-disable-line flowtype/require-return-type
     const request = this.props.request;
-    const requestClasses = classNames("request", { "now-playing": this.props.nowPlaying });
+
+    const displayString = (this.props.nowPlaying) ?
+      `>> ${request.artist} - ${request.title} <<` :
+      `${request.artist} - ${request.title}`;
 
     return (
-
       <div>
         <input
           type="button"
-          className={requestClasses}
+          className="request"
           onClick={(): void => this.handleSelectRequest(request.songUrl)}
-          value={`${request.artist} - ${request.title}`}
+          value={displayString}
         />
       </div>
     );
