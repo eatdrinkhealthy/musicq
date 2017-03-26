@@ -1,4 +1,4 @@
-# MusiQ - an online jukebox
+# MusicQ - an online jukebox
 
 [![Build Status](https://semaphoreci.com/api/v1/projects/1ff84300-0546-4694-9672-d0becb8a1e3a/1210129/shields_badge.svg)](https://semaphoreci.com/eat-drink-healthy/musicq)
 
@@ -13,6 +13,7 @@
 * Players (TBD)
   - YouTube, SoundCloud, Spotify, Google music library, Amazon music library, ...
   - Sonos
+     + http://mattwel.ch/adding-songs-to-sonos-queue-via-sms/ (uses twilio,rdio) 
   - check out Vertigo, http://www.vertigomusiconline.com/
 ### Tenets
 * Visibility, Transparency
@@ -91,7 +92,6 @@
     - place 3rd party and custom created libdefs in `.types/`  (see setting in .flowconfig file)
 * list notable flowtype conventions here
 * installed [eslint package for flowtype](https://github.com/gajus/eslint-plugin-flowtype)
-    - this generates flow type errors simply by linting (may make flow less or unnecessary?)
 * Use flow-typed package to download community created libdefs and create generic libdefs for installed pacakges
     - flow-typed libdefs reside in `flow-typed/`, which is git ignored
     - copy or move libdefs from there to `.types/` and edit as needed

@@ -1,0 +1,47 @@
+exports[`<Request /> matches render snapshot 1`] = `
+<div>
+  <input
+    className="request"
+    onClick={[Function]}
+    type="button"
+    value="Duke Ellington - Jeep\'s Blues" />
+</div>
+`;
+
+exports[`<Requests /> matches render snapshot 1`] = `
+<div>
+  <h4>
+    Requests
+  </h4>
+  <ul>
+    <div>
+      <input
+        className="request"
+        onClick={[Function]}
+        type="button"
+        value="Duke Ellington - Jeep\'s Blues" />
+    </div>
+    <div>
+      <input
+        className="request"
+        onClick={[Function]}
+        type="button"
+        value="The Mustangs - Ya Mar" />
+    </div>
+    <div>
+      <input
+        className="request"
+        onClick={[Function]}
+        type="button"
+        value="The Black Crowes - Gone" />
+    </div>
+    <div>
+      <input
+        className="request"
+        onClick={[Function]}
+        type="button"
+        value="Grateful Dead - Franklin\'s Tower" />
+    </div>
+  </ul>
+</div>
+`;

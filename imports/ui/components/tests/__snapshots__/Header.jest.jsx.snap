@@ -1,0 +1,28 @@
+exports[`<Header /> matches render snapshot 1`] = `
+<div
+  className="row header">
+  <div
+    className="six columns">
+    <h1>
+      MusicQ
+    </h1>
+  </div>
+  <div
+    className="six columns">
+    <a
+      className="u-pull-right"
+      onClick={[Function]}
+      style={Object {}}>
+      <div
+        className="burger">
+        <div
+          className="burger-bar" />
+        <div
+          className="burger-bar" />
+        <div
+          className="burger-bar" />
+      </div>
+    </a>
+  </div>
+</div>
+`;

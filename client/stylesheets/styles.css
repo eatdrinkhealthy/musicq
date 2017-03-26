@@ -1,0 +1,30 @@
+/* styles */
+
+.header {
+    background: steelblue;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.burger {
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    padding: 18px;
+}
+
+.burger-bar {
+    height: 10px;
+    width: 38px;
+    background: url("/images/menu-black.png") center center no-repeat;
+    background-size: contain;
+}
+
+.player {
+    border-radius: 4px;
+}
+
+.request {
+    width: 100%;
+}

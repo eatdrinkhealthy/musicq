@@ -1,0 +1,77 @@
+exports[`<NowPlayingContainer /> matches rendered snapshot 1`] = `
+<div>
+  <br />
+  <div
+    className="row">
+    <div
+      className="eight columns offset-by-one">
+      <div
+        className="flex-video player">
+        <div
+          className={undefined}
+          hidden={false}
+          style={
+            Object {
+              "height": 360,
+              "width": 640,
+            }
+          }>
+          <div
+            style={
+              Object {
+                "display": "block",
+                "height": "100%",
+                "width": "100%",
+              }
+            }>
+            <div />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row">
+    <div
+      className="eight columns offset-by-one">
+      <div>
+        <div>
+          <h4>
+            Requests
+          </h4>
+          <ul>
+            <div>
+              <input
+                className="request"
+                onClick={[Function]}
+                type="button"
+                value="Duke Ellington - Jeep\'s Blues" />
+            </div>
+            <div>
+              <input
+                className="request"
+                onClick={[Function]}
+                type="button"
+                value="The Mustangs - Ya Mar" />
+            </div>
+            <div>
+              <input
+                className="request"
+                onClick={[Function]}
+                type="button"
+                value="The Black Crowes - Gone" />
+            </div>
+            <div>
+              <input
+                className="request"
+                onClick={[Function]}
+                type="button"
+                value="Grateful Dead - Franklin\'s Tower" />
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

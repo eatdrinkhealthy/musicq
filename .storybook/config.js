@@ -2,7 +2,10 @@ import { configure, addDecorator } from "@kadira/storybook";
 import { withKnobs } from "@kadira/storybook-addon-knobs";
 import backgrounds from "react-storybook-addon-backgrounds";
 
-import "!style!css!less!../client/stylesheets/main.less";
+import "../client/stylesheets/normalize.css";
+import "../client/stylesheets/skeleton.css";
+import "../client/stylesheets/responsive-video.css";
+import "../client/stylesheets/styles.css";
 
 // load settings as a Meteor application would (for API keys)
 Window.Meteor = {};

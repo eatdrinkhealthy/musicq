@@ -1,0 +1,25 @@
+exports[`<Welcome /> matches rendered snapshot 1`] = `
+<div>
+  <h5>
+    Welcome
+  </h5>
+  <a
+    onClick={[Function]}
+    style={Object {}}>
+    <span
+      className="button">
+      Now Playing
+    </span>
+  </a>
+  <div
+    className="row">
+    <div
+      className="five columns offset-by-three">
+      <img
+        alt="Music Note"
+        className="u-max-full-width"
+        src="images/music_note.png" />
+    </div>
+  </div>
+</div>
+`;
